@@ -19,4 +19,4 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-To see a live preview of this project, [Click ME...]().
+To see a live preview of this project, [Click ME]( https://mrnati.github.io/Memory-Game/).
