@@ -146,7 +146,7 @@ h1 {
     width: 450px;
     top: 50%;
     left: 50%;
-    background: url('../img/modal-pattern.jpg');
+    background: black url('../img/modal-bg.jpg');
     transform: translate(-50%, -70%);
     text-align: center;
     border: 3px solid #A9A9A9;
