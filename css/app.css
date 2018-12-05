@@ -137,3 +137,79 @@ h1 {
     cursor: pointer;
 }
 
+/*
+ * Styles for the Modal
+ */
+
+ .modal-body {
+    position: relative;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    background: url(modal-pattern.jpg);
+    transform: translate(-50%, -70%);
+    text-align: center;
+    border: 3px solid #A9A9A9;
+    border-radius: 20px;
+    padding: 0.5em;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.heading {
+    padding: 0 1.5rem;
+    display: flex;
+}
+
+.modal-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+.hide {
+    display: none;
+}
+
+.modal-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-bottom: 1px solid #A9A9A9;
+    font-size: 1em;
+}
+
+.modal-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    font-size: 1.5em;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.modal-button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+}
+
+button.modal-button:hover {
+    background: #02b3e4;
+}
