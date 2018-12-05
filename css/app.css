@@ -213,3 +213,43 @@ h1 {
 button.modal-button:hover {
     background: #02b3e4;
 }
+
+/*
+*Mobile screen (Original design compactible with tablet screen)
+*/
+
+@media screen and (max-width: 680px) {
+    .score-panel {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .deck {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .deck .card {
+        height: 79px;
+        width: 79px;
+        margin: 2px;
+    }
+
+    .modal-body {
+        width: 150px;
+        padding: 0.5em;
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .modal-button {
+        width: 90px;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+}
